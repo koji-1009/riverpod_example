@@ -5,7 +5,7 @@ import 'package:riverpod_example/app.dart';
 void main() {
   runApp(
     const ProviderScope(
-      child: MyApp(),
+      child: App(),
     ),
   );
 }

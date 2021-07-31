@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-class MyHomePage extends HookConsumerWidget {
-  const MyHomePage({
+class HomePage extends HookConsumerWidget {
+  const HomePage({
     Key? key,
     required this.title,
   }) : super(key: key);

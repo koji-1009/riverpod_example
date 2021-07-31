@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:riverpod_example/home.dart';
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
+class App extends StatelessWidget {
+  const App({Key? key}) : super(key: key);
 
   // This widget is the root of your application.
   @override
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         scheme: FlexScheme.indigo,
         appBarElevation: 4,
       ).toTheme,
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const HomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
