@@ -15,14 +15,14 @@ class App extends ConsumerWidget {
 
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: FlexColorScheme.light(
+      theme: FlexThemeData.light(
         scheme: FlexScheme.indigo,
         appBarElevation: 4,
-      ).toTheme,
-      darkTheme: FlexColorScheme.dark(
+      ),
+      darkTheme: FlexThemeData.dark(
         scheme: FlexScheme.indigo,
         appBarElevation: 4,
-      ).toTheme,
+      ),
       home: presenter.isAuth ? const HomePage() : const WelcomePage(),
     );
   }

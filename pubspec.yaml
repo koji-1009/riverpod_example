@@ -4,18 +4,18 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.13.0 <3.0.0"
+  sdk: ">=2.14.0 <3.0.0"
 
 dependencies:
-  flex_color_scheme: ^3.0.1
+  flex_color_scheme: ^4.0.0
   flutter:
     sdk: flutter
   flutter_hooks: ^0.18.0
-  hooks_riverpod: ^1.0.0-dev.6
-  shared_preferences: ^2.0.6
+  hooks_riverpod: ^1.0.0
+  shared_preferences: ^2.0.0
 
 dev_dependencies:
-  flutter_lints: ^1.0.4
+  flutter_lints: ^1.0.0
   flutter_test:
     sdk: flutter
 
